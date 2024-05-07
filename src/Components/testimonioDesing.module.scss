@@ -1,0 +1,44 @@
+@import '../assets/sass/variables.scss';
+
+.container__testimonios {
+  width: $sizeTypeAll1170;
+  height: $sizeTypeAll368;
+  margin-top: $sizeTypeAll10;
+  margin-bottom: $sizeTypeAll50;
+  margin-right: $sizeTypeAll10;
+  margin-left: $sizeTypeAll10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff; 
+  box-shadow: $borderLittle0 $borderLittle3 $sizeTypeAll10 + $borderLittle3 $borderLittle1 rgb(0 0 0 / 9%);
+
+  .image__style {
+    height: $widthPorcentage100;
+    width: auto;
+  }
+
+  .container__text {
+    text-align: center;
+    padding: $sizeTypeAll50 - $sizeTypeAll10;
+    font-weight: $weight400;
+    line-height: $sizeTypeRem1 + $sizeTypeRem0;
+
+    .name__text{
+      font-size: $sizeTypeRem1;
+    }
+
+    .cargo__text {
+      font-size: $sizeTypeRem1;
+      margin-top: $sizeTypeAll10 + $borderLittle5;
+      padding-bottom: $sizeTypeAll30;
+    }
+
+    .testimonio__text {
+      font-size: $sizeTypeRem1;
+      text-align: justify;
+    }
+  }
+}
+
+

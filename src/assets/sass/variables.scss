@@ -1,0 +1,67 @@
+//Tamaños Porcentages
+$widthPorcentage9: 9%;
+$widthPorcentage100: 100%;
+:export {
+  widthPorcentage9: $widthPorcentage9;
+  widthPorcentage100: $widthPorcentage100;
+}
+
+//Tamaños Px y rem
+//Px
+$sizeTypeAll10: 10px;
+$sizeTypeAll30: 30px;
+$sizeTypeAll50: 50px;
+$sizeTypeAll368: 368px;
+$sizeTypeAll1170: 1170px;
+//rem
+$sizeTypeRem0: 0.5rem;
+$sizeTypeRem1: 1rem;
+$sizeTypeRem2: 2rem;
+:export {
+  sizeTypeAll10: $sizeTypeAll10;
+  sizeTypeAll30: $sizeTypeAll30;
+  sizeTypeAll50: $sizeTypeAll50;
+  sizeTypeAll368: $sizeTypeAll368;
+  sizeTypeAll1170: $sizeTypeAll1170;
+  sizeTypeRem0: $sizeTypeRem0;
+  sizeTypeRem1: $sizeTypeRem1;
+  sizeTypeRem2: $sizeTypeRem2;
+}
+
+//Colores 
+$colorGreen: #008000;
+:export {
+  colorGreen: $colorGreen;
+}
+
+//Variabñes para borde
+$borderLittle0: 0px;
+$borderLittle1: 1px;
+$borderLittle2: 2px;
+$borderLittle3: 3px;
+$borderLittle5: 5px;
+:export {
+  borderLittle0: $borderLittle0;
+  borderLittle1: $borderLittle1;
+  borderLittle2: $borderLittle2;
+  borderLittle3: $borderLittle3;
+  borderLittle5: $borderLittle5;
+}
+
+//Variables grosor de letras
+$weight400: 400;
+:export {
+  weight400: $weight400;
+}
+
+//tamnaños para el responsive desing
+$responisveNormal1500:1500px;
+$responsiveNormal:1080px;
+$responsiveMedium:800px;
+$responsiveLittle:425px;
+:export {
+    responisveNormal1500: $responisveNormal1500;
+    responsiveNormal: $responsiveNormal;
+    responsiveMedium: $responsiveMedium;
+    responsiveLittle: $responsiveLittle;
+}

@@ -1,0 +1,14 @@
+@import './assets/sass/variables.scss';
+
+.container__main {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: $widthPorcentage100;
+
+  .tittle {
+    text-align: center;
+    color: $colorGreen;
+  }
+}
